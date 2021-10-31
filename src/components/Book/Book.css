@@ -1,0 +1,39 @@
+.card-design{
+    height: 500px;
+    border-radius: 9px;
+    background: #ffffff;
+    box-shadow:  11px 11px 22px #c9c9c9,
+             -11px -11px 22px #ffffff;
+     
+}
+.card-design .image-size{
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    height: 200px;
+}
+.card-design button{
+    font-weight: 700;  
+    border-radius: 5px;     
+      background-color: black;
+      color: white;
+        transition:  1s;
+
+
+}
+.card-design button:hover{
+   background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+
+}
+
+
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+
+.card-design{
+    height: 300px;
+}
+
+}

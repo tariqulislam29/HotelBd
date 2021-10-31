@@ -1,0 +1,8 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+.form{
+    width: 60%;
+}

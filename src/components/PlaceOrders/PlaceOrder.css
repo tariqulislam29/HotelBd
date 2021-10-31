@@ -1,0 +1,64 @@
+.image-size{
+    height: 90vh;
+}
+
+
+
+/* check css */
+
+.check{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+}
+.check-detail{
+ width: 100%;
+ 
+ 
+}
+.box-selects{
+    display: flex;
+   flex-direction: column;
+   border-radius: 6px;
+background: #fafafa;
+box-shadow:  7px 7px 38px #949494,
+             -7px -7px 38px #ffffff;
+    padding: 20px ;
+    
+}
+.box-selects .input-field{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.select-item{
+    padding: 8px 35px;
+}
+.search-button{
+    background-color: black;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:  1s;
+}
+.search-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+.check-detail{
+ width: 90%;
+}
+
+
+
+
+}

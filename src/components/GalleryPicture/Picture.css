@@ -1,0 +1,23 @@
+.card-design-picture{
+    height: 400px;
+   
+    background: #ffffff;
+    box-shadow:  11px 11px 22px #c9c9c9,
+             -11px -11px 22px #ffffff;
+     
+}
+.card-design-picture .image-size{
+   
+    height: 400px;
+}
+
+
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+
+.card-design{
+    height: 600px;
+}
+
+}

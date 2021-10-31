@@ -1,0 +1,13 @@
+.pricing{
+       border-radius: 9px;
+       border: none;
+  border-radius: 9px;
+background: #ffffff;
+box-shadow:  7px 7px 45px #828282,
+             -7px -7px 45px #ffffff;
+      transition:  0.1s; 
+}
+.pricing:hover{
+    background-color: black;
+    color: white;
+}

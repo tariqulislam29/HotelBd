@@ -1,0 +1,50 @@
+.check{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+}
+.check-details{
+ width: 70%;
+ 
+ 
+}
+.box-select{
+    display: flex;
+  
+   border-radius: 6px;
+background: #fafafa;
+box-shadow:  7px 7px 38px #949494,
+             -7px -7px 38px #ffffff;
+    padding: 20px ;
+}
+.select-item{
+    padding: 8px 35px;
+}
+.search-btn{
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:  1s;
+}
+.search-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 360px) {
+
+.check-details{
+ width: 90%;
+}
+.box-select{
+    flex-direction: column;
+}
+
+
+
+}
